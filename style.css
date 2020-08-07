@@ -1,6 +1,6 @@
-body{
-
-}
+html.wf-loading * {
+     opacity: 0;
+ }
 a.navHover:hover {
   font-weight: bold;
 }
@@ -25,13 +25,13 @@ html {
     height: 100%;
 }
 
-.box {
 
-}
 
-.centeri{
+.box{
   border: 1px solid white ;
   background-color: #FFFFFF;
   margin-left: 15%;
   margin-right: 15%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
