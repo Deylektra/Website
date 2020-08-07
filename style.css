@@ -32,7 +32,13 @@ footer{
     padding-bottom:20px;
     text-align: center;
 }
-
+dt{
+  margin-left: 10%;
+}
+dd{
+  margin-left:15%;
+  margin-right: 10%;
+}
 
 .box{
   border: 1px solid white ;
