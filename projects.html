@@ -12,6 +12,7 @@
 </header>
 
 <body>
+  <script src="button.js"></script>
 
      <div class = "">
   <nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 rounded"  style="background-color: #51e2f5;">
@@ -144,9 +145,9 @@
 
     <div  style="text-align:center; padding-top:50px;">
       <h2>Resume</h2>
-   <a class="btn btn-outline-dark" data-toggle="collapse" href="#resumeCollapse" role="button" aria-expanded="false" aria-controls="resumeCollapse" >
-    View Resume
-  </a>
+   <button id="resumeBtn"class="btn btn-outline-dark" data-toggle="collapse" href="#resumeCollapse" role="button" aria-expanded="false" aria-controls="resumeCollapse" value="View Resume" onclick="changeText()" >
+     View Resume
+   </button>
   <div class="collapse" id="resumeCollapse">
     <iframe src="Media/JulianneSemResume.pdf" width="100%" height="1000px">
     </iframe>
