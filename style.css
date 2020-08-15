@@ -8,6 +8,10 @@ a.navHover:hover {
   font-family: 'Sacramento', cursive;
 }
 
+#sans{
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
   /* background-image: url("Media/b3.jpg"), url("Media/b3.jpg");
   background-color: #cccccc; */
